@@ -1,6 +1,7 @@
 # node-server
 > nodejs 实现后端服务器
 
+- 整个文件通过server函数来实现
 - routes 针对同不同url进行处理
 - routePath  解析url得到pathname，和routes中url进行匹配，判断handleFn是否存在，不存在则当做静态文件处理，
 - 若存在则在handleFn进行处理，POST数据通过 req.on('data', function)进行处理
